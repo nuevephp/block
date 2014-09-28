@@ -5,8 +5,9 @@ Block allows inclusion of Snippets and Chunks.
 ## Installation (pre-transport-package) ##
 1. Extract source in modX root
 2. `cd` into block/core/components/block/ and run `composer install`
-3. Create snippet called `block` and point it to the static file block/core/components/block/elements/snippets/block.snippet.php
-4. Copy `block/assets/components/block` to your asset directory `assets/components/`
+3. Create a system setting called `block.core_path` and point to `{base_path}block/core/components/block/`
+4. Create snippet called `block` and point it to the static file block/core/components/block/elements/snippets/block.snippet.php
+5. Copy `block/assets/components/block` to your asset directory `assets/components/`
 
 ## Usage ##
 
